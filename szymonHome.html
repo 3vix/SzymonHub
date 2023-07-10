@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SzymonHub Britain - Watch all TV shows online, watch movies online</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="left">
+                <img src="images/szymonspace.png" alt="">
+            </div>
+            <div class="right">
+                <select name="language" class="language">
+                    <option value="English">English</option>
+                    <option value="polish">"polish"</option>
+                </select>
+                <button><a href="pfpage/profilePage.html">Sign In</a></button>
+            </div>
+        </nav>
+
+        <div class="title">
+            <div class="content">
+                <h1 id="mydiv">Unlimited Children, Crimes and cults</h1>
+                <h2>Watch anywhere, Pay forever</h2>
+                <form action="#">
+                    <h3>Ready to watch? enter your email adress and bank details to create your membership (;</h3>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="Email adress">
+                        <button><a href="pfpage/profilePage.html">Get started</a></button>
+                    </div>
+
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myfunction(){
+            var x=document.getElementById("mydiv");
+            if(x.innerHTML==="Unlimited Children, Crimes and cults"){
+                x.innerHTML="Search for the light"
+                var x=document.getElementById("mydiv").style.fontSize="20px"
+            }
+            else{
+               x.innerHTML="Unlimited Children, Crimes and cults"
+            }
+        }
+    </script> 
+</body>
+</html>
